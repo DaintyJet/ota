@@ -78,7 +78,7 @@ This project demonstrates how to use the Over The Air (OTA) update system on an 
 3. Upload the firmware via OTA using the ``` compoents/arduino/tools/espota.py ``` tool. The command is shown below
    ```
    # Be careful of firewall issues blocking the communication
-   ./espota.py -i [INSERT-ESP-IP] -f path/to/build/file.bin
+   ./espota.py -d -i [INSERT-ESP-IP] -f path/to/build/file.bin
    ```
    * This will fail if you have a firewall blocking packets, or are not using a Bridged Network adapter!
 4.  Notice the different uploading process from the uploading process via micro USB
