@@ -29,12 +29,11 @@ This project demonstrates how to use the Over The Air (OTA) update system on an 
    The # symbol indicates the rest of the line is comment.
 
 4. Open VS Code and import this GitHub project, which is an Arduino project.
-   - Click the PlatformIO icon
-   - Click *QUICK ACCESS* -> *PIO Home* -> *Open*
-   - Click *Import Arduino Project*
-   - Select a board: *Espressif ESP32 Dev Module*
-   - *Choose a directory with existing Arduino IDE project*: *Places* -> *iot* -> *Documents* -> *ota*
-   - Click the button *Import*
+   - Click file Icon
+   - Click *Open Folder* 
+   - Click on the *ota* directory that we cloned
+
+
 
 ## Flashing the board for the first time via micro USB
 
